@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: legal-notices.html 
+keywords: copyrights, notice, trademarks, patents, privacy, open source 
+summary: 'Le note legali forniscono l"accesso a dichiarazioni di copyright, marchi, brevetti e altro ancora.' 
+---
+= Note legali
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Le note legali forniscono l'accesso a dichiarazioni di copyright, marchi, brevetti e altro ancora.
+
+
+
+== Copyright
+
+http://www.netapp.com/us/legal/copyright.aspx[]
+
+
+
+== Marchi
+
+NETAPP, il logo NETAPP e i marchi elencati nella pagina dei marchi NetApp sono marchi di NetApp, Inc. Altri nomi di società e prodotti potrebbero essere marchi dei rispettivi proprietari.
+
+http://www.netapp.com/us/legal/netapptmlist.aspx[]
+
+
+
+== Brevetti
+
+Un elenco aggiornato dei brevetti di proprietà di NetApp è disponibile all'indirizzo:
+
+https://www.netapp.com/us/media/patents-page.pdf[]
+
+
+
+== Direttiva sulla privacy
+
+https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
+
+
+
+== Open source
+
+I file di avviso forniscono informazioni sul copyright e sulle licenze di terze parti utilizzate nel software NetApp.
+
+* link:media/notice_cloud_volumes_ontap_9.9.1_aws.pdf["Avviso per Cloud Volumes ONTAP 9.9.1 Mediator in AWS"^]
+* link:media/notice_cloud_volumes_ontap_9.9.1_google.pdf["Avviso per Cloud Volumes ONTAP 9.9.1 Mediator in Google Cloud"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2876856["Avviso per ONTAP 9.9.1"^]
+
