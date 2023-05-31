@@ -24,7 +24,7 @@ La capacità massima del sistema per un sistema Cloud Volumes ONTAP è determina
 
 NetApp non supporta il superamento del limite di capacità del sistema. Se si raggiunge il limite di capacità concesso in licenza, BlueXP visualizza il messaggio Action Required (azione richiesta) e non consente più di aggiungere dischi aggiuntivi.
 
-Per alcune configurazioni, i limiti dei dischi impediscono di raggiungere il limite di capacità utilizzando solo i dischi. In questi casi, è possibile raggiungere il limite di capacità di https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["tiering dei dati inattivi sullo storage a oggetti"^]. Per ulteriori informazioni, fare riferimento ai limiti di capacità e dischi riportati di seguito.
+Per alcune configurazioni, i limiti dei dischi impediscono di raggiungere il limite di capacità utilizzando solo i dischi. In questi casi, è possibile raggiungere il limite di capacità di https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["tiering dei dati inattivi sullo storage a oggetti"^]. Per ulteriori informazioni, fare riferimento ai limiti di capacità e dischi riportati di seguito.
 
 [cols="25,75"]
 |===
@@ -63,7 +63,7 @@ Cloud Volumes ONTAP utilizza i volumi EBS come dischi, con una dimensione massim
 Tenere presente quanto segue:
 
 * I limiti dei dischi riportati di seguito sono specifici per i dischi che contengono dati utente. I limiti non includono il disco di boot e il disco root.
-* È ora possibile acquistare più licenze basate su nodo per un sistema Cloud Volumes ONTAP BYOL per allocare più di 368 TIB di capacità. Il numero di licenze che è possibile acquistare per un sistema a nodo singolo o una coppia ha è illimitato. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["tiering dei dati inattivi sullo storage a oggetti"^]. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html["Scopri come aggiungere ulteriori licenze di sistema a Cloud Volumes ONTAP"^].
+* È ora possibile acquistare più licenze basate su nodo per un sistema Cloud Volumes ONTAP BYOL per allocare più di 368 TIB di capacità. Il numero di licenze che è possibile acquistare per un sistema a nodo singolo o una coppia ha è illimitato. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["tiering dei dati inattivi sullo storage a oggetti"^]. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html["Scopri come aggiungere ulteriori licenze di sistema a Cloud Volumes ONTAP"^].
 
 
 
@@ -213,7 +213,7 @@ Note:
 
 Alcune configurazioni consentono di creare ulteriori VM di storage (SVM) per Cloud Volumes ONTAP.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms-aws.html["Scopri come creare altre VM di storage"^].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-aws.html["Scopri come creare altre VM di storage"^].
 
 [cols="40,60"]
 |===

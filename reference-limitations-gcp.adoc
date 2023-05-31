@@ -20,6 +20,6 @@ Le seguenti limitazioni note sono specifiche di Cloud Volumes ONTAP nella piatta
 
 == Limitazioni di Google Private Service Connect
 
-Se si sfrutta https://cloud.google.com/vpc/docs/private-service-connect["Google Private Service Connect"^] All'interno del VPC in cui si sta implementando Cloud Volumes ONTAP, è necessario implementare i record DNS che inoltrano il traffico al richiesto https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access["Endpoint API BlueXP"^].
+Se si sfrutta https://cloud.google.com/vpc/docs/private-service-connect["Google Private Service Connect"^] All'interno del VPC in cui si sta implementando Cloud Volumes ONTAP, è necessario implementare i record DNS che inoltrano il traffico al richiesto https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access["Endpoint API BlueXP"^].
 
 Il tiering dei dati da Cloud Volumes ONTAP in un bucket di storage cloud Google non è attualmente supportato con Private Service Connect.

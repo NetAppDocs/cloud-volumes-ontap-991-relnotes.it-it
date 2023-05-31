@@ -62,7 +62,7 @@ Le tabelle riportate di seguito mostrano la capacità massima del sistema in bas
 
 
 
-NOTE: È possibile acquistare più licenze basate su nodo per un sistema Cloud Volumes ONTAP BYOL per allocare più di 368 TIB di capacità. Il numero di licenze che è possibile acquistare per un sistema a nodo singolo o una coppia ha è illimitato. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["tiering dei dati inattivi sullo storage a oggetti"^]. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html["Scopri come aggiungere ulteriori licenze di sistema a Cloud Volumes ONTAP"^].
+NOTE: È possibile acquistare più licenze basate su nodo per un sistema Cloud Volumes ONTAP BYOL per allocare più di 368 TIB di capacità. Il numero di licenze che è possibile acquistare per un sistema a nodo singolo o una coppia ha è illimitato. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["tiering dei dati inattivi sullo storage a oggetti"^]. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html["Scopri come aggiungere ulteriori licenze di sistema a Cloud Volumes ONTAP"^].
 
 
 
@@ -314,7 +314,7 @@ Alcune configurazioni consentono di creare ulteriori VM di storage (SVM) per Clo
 
 Questi sono i limiti testati. Sebbene sia teoricamente possibile configurare altre VM di storage, non è supportato.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms-azure.html["Scopri come creare altre VM di storage"^].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["Scopri come creare altre VM di storage"^].
 
 [cols="2*"]
 |===
