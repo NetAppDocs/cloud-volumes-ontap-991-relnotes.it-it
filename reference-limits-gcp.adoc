@@ -43,7 +43,7 @@ Per alcune configurazioni, i limiti dei dischi impediscono di raggiungere il lim
 | PAYGO Premium | 368 TB 
 
 
-| Licenza basata su nodo | 368 TB per licenza 
+| Licenza basata su nodo | 2 PIB (richiede più licenze) 
 
 
 | Licenza basata sulla capacità | 2 PIB 
@@ -86,7 +86,7 @@ La tabella riportata di seguito mostra la capacità massima del sistema con i so
 
 == Limiti aggregati
 
-Cloud Volumes ONTAP raggruppa i dischi della piattaforma cloud Google in _aggregati_. Gli aggregati forniscono storage ai volumi.
+Cloud Volumes ONTAP raggruppa i dischi di Google Cloud in _aggregati_. Gli aggregati forniscono storage ai volumi.
 
 [cols="2*"]
 |===
@@ -124,7 +124,9 @@ Note:
 | Storage logico | Parametro | Limite 
 
 
-| *Storage Virtual Machine (SVM)* | Numero massimo di Cloud Volumes ONTAP (coppia ha o nodo singolo) | Un SVM per il servizio dati e un SVM di destinazione utilizzati per il disaster recovery. È possibile attivare la SVM di destinazione per l'accesso ai dati in caso di interruzione della SVM di origine. ^1^ una SVM che serve dati copre l'intero sistema Cloud Volumes ONTAP (coppia ha o nodo singolo). 
+| *Storage Virtual Machine (SVM)* | Numero massimo di Cloud Volumes ONTAP (coppia ha o nodo singolo) | Un SVM per il servizio dati e un SVM di destinazione utilizzati per il disaster recovery. Puoi attivare la SVM di destinazione per l'accesso ai dati in caso di fuori servizio della SVM di origine. ^1^
+
+L'unica SVM che serve dati copre l'intero sistema Cloud Volumes ONTAP (coppia ha o nodo singolo). 
 
 
 .2+| *File* | Dimensione massima | 16 TB 

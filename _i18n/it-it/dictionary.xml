@@ -207,7 +207,6 @@
   <block id="e3185eb0708df4883935910ebf26f8db" category="cell">*Dischi + tiering dei dati*</block>
   <block id="83eca86ff243df4e1646a92d7c304973" category="cell">DS4_v2</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TIB</block>
-  <block id="f94f9afeacfc431720c782db2e1d8809" category="cell">368 TIB x ogni licenza</block>
   <block id="1388ff45ca6939d3ddda6032143844f9" category="cell">DS13_v2</block>
   <block id="31e15d90597db8f67574c519a0e03cff" category="cell">E4s_v3</block>
   <block id="e4da3b7fbbce2345d7772b0674a318d5" category="cell">5</block>
@@ -396,7 +395,6 @@
   <block id="fb477a816dd39a57a35e342288ae601b" category="cell">Capacità massima del sistema con dischi e tiering cold data su un bucket di storage Google Cloud</block>
   <block id="1a731420bbc4adfcc3e3c640955180d2" category="cell">Dipende dalla licenza. Vedere la tabella riportata sopra.</block>
   <block id="f001a5c220f0213e63339dfe3e66fb03" category="paragraph">^1^ questo limite è definito dai limiti delle macchine virtuali in Google Cloud Platform.</block>
-  <block id="c774172e35ab7294ce80989983a6d47e" category="paragraph">Cloud Volumes ONTAP raggruppa i dischi della piattaforma cloud Google in _aggregati_. Gli aggregati forniscono storage ai volumi.</block>
   <block id="78c305f4cc241040025b8466926183c4" category="cell">Numero massimo di aggregati di dati ^1^</block>
   <block id="524fcd5d2110ab8c4e98150340c8319b" category="list-text">99 per nodo singolo</block>
   <block id="e60662dff3b10697270b44b2c551e944" category="list-text">64 per un'intera coppia ha</block>
@@ -407,7 +405,6 @@
   <block id="41a0b1e6c6d31716c7d7b603ce6a4936" category="section-title">Limiti di storage logico</block>
   <block id="73a985be794327e4a037c64d0184774a" category="cell">*Storage Virtual Machine (SVM)*</block>
   <block id="835d5536792339ec4a51105123601003" category="cell">Numero massimo di Cloud Volumes ONTAP (coppia ha o nodo singolo)</block>
-  <block id="b2734f21c300d02359bdc60073cc3bc5" category="cell">Un SVM per il servizio dati e un SVM di destinazione utilizzati per il disaster recovery. È possibile attivare la SVM di destinazione per l'accesso ai dati in caso di interruzione della SVM di origine. ^1^ una SVM che serve dati copre l'intero sistema Cloud Volumes ONTAP (coppia ha o nodo singolo).</block>
   <block id="309524b9e1ef1d7d7d905c7cb1d358e9" category="cell">100 TB</block>
   <block id="a20ea8590a5bc20c473682a1138198a0" category="paragraph">Le seguenti limitazioni si applicano a Cloud Volumes ONTAP in tutti i provider cloud: AWS, Azure e Google Cloud.</block>
   <block id="4ab1be901507467113ec58325fc4e033" category="section-title">Numero massimo di operazioni di replica simultanee</block>
@@ -645,7 +642,6 @@
   <block id="79d3c4941fdb49ae08cc30405f716cce" category="list-text">Per alcune configurazioni, i limiti dei dischi impediscono di raggiungere il limite di capacità utilizzando solo i dischi. In questi casi, è possibile raggiungere il limite di capacità di<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>. Per informazioni sui limiti dei dischi, fare riferimento a. <block ref="71ccaacc6f6c8feca068c7ff1a7b2eb5" category="inline-link-macro-rx"></block>.</block>
   <block id="9df4ca2adcfbf390d35edbeb52928a78" category="list-text">Alcuni tipi di istanze includono lo storage NVMe locale, utilizzato da Cloud Volumes ONTAP come _Flash cache_. Flash cache accelera l'accesso ai dati attraverso il caching intelligente in tempo reale dei dati utente recentemente letti e dei metadati NetApp. È efficace per i carichi di lavoro a lettura intensiva, inclusi database, e-mail e file service. La compressione deve essere disattivata su tutti i volumi per sfruttare i miglioramenti delle prestazioni di Flash cache.<block ref="da56a164195bbdee72f1dfc4ea53669d" category="inline-link-rx"></block>.</block>
   <block id="ce4956d12fe22f1b1243720ce22651e0" category="list-text">Cloud Volumes ONTAP supporta un'elevata velocità di scrittura con la maggior parte dei tipi di istanze quando si utilizza una coppia ha. L'elevata velocità di scrittura è supportata con tutti i tipi di istanze quando si utilizza un sistema a nodo singolo.<block ref="721fe5ee3bbc3d8295d8615ed77ff9be" category="inline-link-rx"></block>.</block>
-  <block id="c00893a0ffabdcfdc5c2abd6001e5e33" category="admonition">È possibile acquistare più licenze basate su nodo per un sistema Cloud Volumes ONTAP BYOL per allocare più di 368 TIB di capacità. Il numero di licenze che è possibile acquistare per un sistema a nodo singolo o una coppia ha è illimitato. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>.</block>
   <block id="fc8746b925f8923889b77841242bf054" category="paragraph"><block ref="771bd01d5b66ba0bcb76d734267dc8bb" category="inline-link-rx"></block>.</block>
   <block id="ae90a2e4532cb9b615489b63c36e2383" category="paragraph"><block ref="dca5658ae26fff987979f5de0a83e9fd" category="inline-link-rx"></block>.</block>
   <block id="efb78221b5926bd89d824f8dec9a7ed2" category="list-text">I limiti dei dischi possono impedire di raggiungere il limite massimo di capacità del sistema utilizzando solo i dischi. È possibile raggiungere il limite di capacità entro<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.</block>
@@ -653,7 +649,6 @@
   <block id="396e70da46ca6b8f2dd7d352ab5d7f16" category="paragraph">Per alcune configurazioni, i limiti dei dischi impediscono di raggiungere il limite di capacità utilizzando solo i dischi. È possibile raggiungere il limite di capacità entro<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>. Per ulteriori informazioni, fare riferimento ai limiti dei dischi riportati di seguito.</block>
   <block id="e23e4dd8b34a9ee4e125975a6b71e9e6" category="paragraph"><block ref="5cefb3f020a9b716a037c381a6b28d4b" category="inline-link-rx"></block>.</block>
   <block id="a990fdc46668be8e7f963c8df127bbe8" category="paragraph">Per alcune configurazioni, i limiti dei dischi impediscono di raggiungere il limite di capacità utilizzando solo i dischi. In questi casi, è possibile raggiungere il limite di capacità di<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>. Per ulteriori informazioni, fare riferimento ai limiti di capacità e dischi riportati di seguito.</block>
-  <block id="74620547288f003c63c99ad0bb05f8b6" category="list-text">È ora possibile acquistare più licenze basate su nodo per un sistema Cloud Volumes ONTAP BYOL per allocare più di 368 TIB di capacità. Il numero di licenze che è possibile acquistare per un sistema a nodo singolo o una coppia ha è illimitato. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>.</block>
   <block id="c0ad13124302d4d047c0f916a6418182" category="paragraph"><block ref="cc3941262f254d1055804ecddca39dec" category="inline-link-rx"></block>.</block>
   <block id="4bdb15bfe1bad472d818dc31e8f53185" category="paragraph">Ulteriori funzionalità e miglioramenti sono stati introdotti anche nelle ultime versioni di BlueXP. Vedere<block ref="c7887e85c6060ae2594d873a0f2ae025" category="inline-link-rx"></block> per ulteriori informazioni.</block>
   <block id="34b2f4eab827285a262b1781e672e882" category="paragraph"><block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>.</block>
@@ -672,4 +667,11 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="fd164e9cb2bc1ac5405cabfe451663f7" category="cell">2 PIB (richiede più licenze)</block>
+  <block id="b3ffb91616ad248d4f6468f29260116d" category="paragraph">Cloud Volumes ONTAP raggruppa i dischi di Google Cloud in _aggregati_. Gli aggregati forniscono storage ai volumi.</block>
+  <block id="e03f6b8b2723ce582552c447da083deb" category="cell">Un SVM per il servizio dati e un SVM di destinazione utilizzati per il disaster recovery. Puoi attivare la SVM di destinazione per l'accesso ai dati in caso di fuori servizio della SVM di origine. ^1^
+
+L'unica SVM che serve dati copre l'intero sistema Cloud Volumes ONTAP (coppia ha o nodo singolo).</block>
+  <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="list-text">Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes ONTAP BYOL a nodo singolo o coppia ha, per allocare più di 368 TiB di capacità, fino al limite massimo di capacità di sistema testato e supportato di 2 PIB. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>. Sebbene Cloud Volumes ONTAP supporti fino alla capacità massima testata e supportata di sistema di 2 PIB, il superamento del limite di 2 PIB comporta una configurazione di sistema non supportata.</block>
+  <block id="de9d6749570efc87e63811b5947fc250" category="list-text">Il cloud segreto e le regioni del cloud top secret AWS supportano l'acquisto di licenze basate su nodi multipli a partire da Cloud Volumes ONTAP 9.12.1.</block>
 </blocks>
