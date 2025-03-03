@@ -82,7 +82,7 @@ Se si dispone di un sistema esistente in esecuzione su questo tipo di macchina, 
 
 . Le prestazioni di scrittura migliorate sono abilitate quando si utilizzano gli SSD.
 . L'interfaccia BlueXP mostra un tipo di macchina aggiuntivo supportato per Standard e BYOL: n1-highmem-4. Tuttavia, questo tipo di macchina non è destinato agli ambienti di produzione. L'abbiamo resa disponibile solo per un ambiente di laboratorio specifico.
-. Per il supporto dell'area geografica di Google Cloud Platform, vedere https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes Global Regions"^].
+. Per il supporto regionale di Google Cloud Platform, vedere https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes Global Regions"^].
 . Cloud Volumes ONTAP può essere eseguito su un'istanza di macchina virtuale riservata o on-demand dal tuo cloud provider. Le soluzioni che utilizzano altri tipi di istanze di macchine virtuali non sono supportate.
 
 

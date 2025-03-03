@@ -44,6 +44,6 @@ Le seguenti limitazioni influiscono sulle coppie ha di Cloud Volumes ONTAP in Mi
 * NFSv4 non è supportato. NFSv3 è supportato.
 * Le coppie HA non sono supportate in alcune regioni.
 +
-https://cloud.netapp.com/cloud-volumes-global-regions["Consulta l'elenco delle aree Azure supportate"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["Consulta l'elenco delle aree Azure supportate"^]
 
 
