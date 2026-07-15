@@ -18,6 +18,7 @@ Cloud Volumes ONTAP ha limiti di configurazione dello storage per garantire oper
 
 
 
+[[maximum-system-capacity-by-license]]
 == Capacità massima del sistema per licenza
 
 La capacità massima del sistema per un sistema Cloud Volumes ONTAP è determinata dalla relativa licenza. La capacità massima del sistema include lo storage basato su disco e lo storage a oggetti utilizzato per il tiering dei dati.
@@ -51,6 +52,7 @@ Il limite di capacità è per l'intera coppia ha. Non è per nodo. Ad esempio, s
 
 
 
+[[disk-and-tiering-limits-by-vm-size]]
 == Limiti di dischi e tiering in base alle dimensioni delle macchine virtuali
 
 I limiti dei dischi riportati di seguito sono specifici per i dischi che contengono dati utente. I limiti non includono il disco root, il disco core e la VNVRAM.
@@ -66,6 +68,7 @@ NOTE: Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes O
 
 
 
+[[single-node-with-a-premium-license]]
 === Nodo singolo con licenza Premium
 
 [cols="14,20,31,33"]
@@ -95,6 +98,7 @@ NOTE: Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes O
 |===
 
 
+[[single-node-with-node-based-licensing]]
 === Nodo singolo con licenze basate su nodo
 
 [cols="10,18,18,18,18,18"]
@@ -142,6 +146,7 @@ NOTE: Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes O
 |===
 
 
+[[single-node-with-capacity-based-licensing]]
 === Nodo singolo con licenze basate sulla capacità
 
 [cols="14,20,31,33"]
@@ -186,6 +191,7 @@ NOTE: Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes O
 |===
 
 
+[[ha-pairs-with-a-premium-license]]
 === HA si accoppia con una licenza Premium
 
 [cols="14,20,31,33"]
@@ -212,6 +218,7 @@ NOTE: Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes O
 |===
 
 
+[[ha-pairs-with-node-based-licensing]]
 === HA si accoppia con licenze basate su nodo
 
 [cols="10,18,18,18,18,18"]
@@ -247,6 +254,7 @@ NOTE: Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes O
 |===
 
 
+[[ha-pairs-with-capacity-based-licensing]]
 === HA si accoppia con licenze basate sulla capacità
 
 [cols="14,20,31,33"]
@@ -279,6 +287,7 @@ NOTE: Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes O
 |===
 
 
+[[aggregate-limits]]
 == Limiti aggregati
 
 Cloud Volumes ONTAP utilizza lo storage Azure come dischi e li raggruppa in _aggregati_. Gli aggregati forniscono storage ai volumi.
@@ -308,6 +317,7 @@ Note:
 
 
 
+[[storage-vm-limits]]
 == Limiti delle VM di storage
 
 Alcune configurazioni consentono di creare ulteriori VM di storage (SVM) per Cloud Volumes ONTAP.
@@ -353,6 +363,7 @@ Le VM di storage configurate per il disaster recovery (DR) non richiedono una li
 
 
 
+[[file-and-volume-limits]]
 == Limiti di file e volumi
 
 [cols="22,22,56"]
@@ -396,6 +407,7 @@ Note:
 
 
 
+[[iscsi-storage-limits]]
 == Limiti dello storage iSCSI
 
 [cols="3*"]

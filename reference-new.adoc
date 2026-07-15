@@ -20,6 +20,7 @@ Ulteriori funzionalità e miglioramenti sono stati introdotti anche nelle ultime
 
 
 
+[[9-9-1-p8-15-may-2022]]
 == 9.9.1 P8 (15 maggio 2022)
 
 La patch 9.9.1 P8 è ora disponibile per Cloud Volumes ONTAP in Microsoft Azure se si dispone di un connettore con versione 3.9.13 o successiva. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.
@@ -28,6 +29,7 @@ https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downl
 
 
 
+[[9-9-1-p7-21-feb-2022]]
 == 9.9.1 P7 (21 febbraio 2022)
 
 La patch 9.9.1 P7 è ora disponibile per Cloud Volumes ONTAP in Microsoft Azure se si dispone di un connettore con versione 3.9.15 o successiva. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.
@@ -36,6 +38,7 @@ https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downl
 
 
 
+[[9-9-1-patches-3-feb-2022]]
 == 9.9.1 patch (3 febbraio 2022)
 
 Sono disponibili due nuove patch per Cloud Volumes ONTAP:
@@ -52,6 +55,7 @@ BlueXP richiederà di aggiornare i sistemi esistenti a queste release di patch.
 
 
 
+[[9-9-1-ga-21-july-2021]]
 == 9.9.1 GA (21 luglio 2021)
 
 È ora disponibile la versione General Availability (GA) di Cloud Volumes ONTAP 9.9.1. La release GA include correzioni di bug.
@@ -60,6 +64,7 @@ BlueXP richiede di aggiornare i sistemi esistenti che eseguono una delle seguent
 
 
 
+[[9-9-1-update-7-july-2021]]
 == Aggiornamento 9.9.1 (7 luglio 2021)
 
 Con BlueXP 3.9.8 sono state introdotte le seguenti modifiche.
@@ -85,6 +90,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Scopri 
 
 
 
+[[9-9-1-update-3-june-2021]]
 == Aggiornamento 9.9.1 (3 giugno 2021)
 
 La recente versione di BlueXP 3.9.7 ha introdotto il supporto per un nuovo pacchetto professionale che consente di raggruppare Cloud Volumes ONTAP e Cloud Backup Service utilizzando un contratto annuale del marketplace AWS.
@@ -93,6 +99,7 @@ link:reference-configs-aws.html["Scopri di più su questa opzione di licenza."]
 
 
 
+[[9-9-1-release-candidate-24-may-2021]]
 == 9.9.1 Release Candidate (24 maggio 2021)
 
 Cloud Volumes ONTAP 9.9.1 Release Candidate è ora disponibile in AWS, Azure e Google Cloud Platform.
@@ -106,6 +113,7 @@ Oltre alle funzionalità introdotte con https://library.netapp.com/ecm/ecm_downl
 
 
 
+[[ontap-s3-support-in-azure]]
 === Supporto di ONTAP S3 in Azure
 
 Ora puoi fornire lo storage a oggetti S3 da Cloud Volumes ONTAP in Azure. Cloud Volumes ONTAP per Microsoft Azure supporta S3 come opzione per lo storage scale-out, oltre ai protocolli classici basati su file come NFS e SMB.
@@ -121,24 +129,28 @@ L'utilizzo della CLI è la procedura consigliata per configurare l'accesso al cl
 
 
 
+[[enhanced-performance-in-aws-with-high-write-speed]]
 === Performance migliorate in AWS con elevata velocità di scrittura
 
 Abbiamo migliorato le performance di throughput di Cloud Volumes ONTAP quando https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-write-speed.html["elevata velocità di scrittura"^] è attivato su un tipo di istanza supportato.
 
 
 
+[[io2-boot-disk-in-aws]]
 === Disco di boot io2 in AWS
 
 In AWS, il disco di boot per un nuovo sistema Cloud Volumes ONTAP è ora un volume IOPS SSD (io2) con provisioning. i volumi io2 offrono maggiore affidabilità rispetto ai volumi io1, utilizzati in precedenza per i dischi di boot.
 
 
 
+[[required-version-of-the-bluexp-connector]]
 == Versione richiesta di BlueXP Connector
 
 BlueXP Connector deve eseguire la versione 3.9.6 o successiva per implementare nuovi sistemi Cloud Volumes ONTAP 9.9.1 e aggiornare i sistemi esistenti alla versione 9.9.1.
 
 
 
+[[upgrade-notes]]
 == Note sull'aggiornamento
 
 * Gli aggiornamenti di Cloud Volumes ONTAP devono essere completati da BlueXP. Non aggiornare Cloud Volumes ONTAP utilizzando Gestione di sistema o l'interfaccia CLI. In questo modo si può influire sulla stabilità del sistema.
@@ -160,6 +172,7 @@ Fare riferimento a. link:https://mysupport.netapp.com/info/communications/ECMLP2
 
 
 
+[[ds3v2]]
 === DS3_v2
 
 A partire dalla versione 9.9.1, il tipo di macchina virtuale DS3_v2 non è più supportato dai sistemi Cloud Volumes ONTAP nuovi ed esistenti. Se si dispone di un sistema esistente in esecuzione su questo tipo di macchina virtuale, è necessario modificare i tipi di macchina virtuale prima di eseguire l'aggiornamento alla versione 9.9.1.

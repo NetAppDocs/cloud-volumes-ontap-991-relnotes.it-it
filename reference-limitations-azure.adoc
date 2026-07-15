@@ -18,12 +18,14 @@ Le seguenti limitazioni note sono specifiche di Cloud Volumes ONTAP in Microsoft
 
 
 
+[[limitations-with-using-azure-vm-extensions]]
 == Limitazioni con l'utilizzo delle estensioni VM di Azure
 
 Cloud Volumes ONTAP non supporta le estensioni della macchina virtuale Azure e le applicazioni delle macchine virtuali in un'implementazione. L'utilizzo di Cloud Volumes ONTAP in Azure con estensioni VM provoca ritardi nelle operazioni e NetApp consiglia di evitarli.
 
 
 
+[[flash-cache-limitations]]
 == Limitazioni della cache flash
 
 Il tipo di macchina virtuale Standard_L8s_v2 include lo storage NVMe locale, utilizzato da Cloud Volumes ONTAP come _Flash cache_. Nota le seguenti limitazioni per Flash cache:
@@ -37,6 +39,7 @@ Quando si crea un volume da BlueXP, è possibile scegliere di non utilizzare l'e
 
 
 
+[[ha-limitations]]
 == Limitazioni DI HA
 
 Le seguenti limitazioni influiscono sulle coppie ha di Cloud Volumes ONTAP in Microsoft Azure:

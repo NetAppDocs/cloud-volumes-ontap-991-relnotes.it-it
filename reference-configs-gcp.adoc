@@ -18,6 +18,7 @@ In Google Cloud sono supportate diverse configurazioni Cloud Volumes ONTAP.
 
 
 
+[[supported-configurations-by-license]]
 == Configurazioni supportate per licenza
 
 Cloud Volumes ONTAP è disponibile nella piattaforma cloud di Google come sistema a nodo singolo e come coppia di nodi ad alta disponibilità (ha) per la fault tolerance e le operazioni senza interruzioni.
@@ -88,6 +89,7 @@ Se si dispone di un sistema esistente in esecuzione su questo tipo di macchina, 
 
 
 
+[[supported-disk-sizes]]
 == Dimensioni dei dischi supportate
 
 In Google Cloud, un aggregato può contenere fino a 6 dischi dello stesso tipo e dimensione. Sono supportate le seguenti dimensioni dei dischi:
